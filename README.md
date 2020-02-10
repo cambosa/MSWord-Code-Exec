@@ -10,7 +10,7 @@ without utilizing any macros (https://sensepost.com/blog/2017/macro-less-code-ex
 ## Encoded PowerShell Command
 > powershell.exe –WindowStyle Hidden –noprofile –EncodedCommand <BASE64ENCODED>
 ## Embedding C# into PowerShell
-> Add-Type -TypeDefinition @"
+*Add-Type -TypeDefinition @"*
 >        using System;
 >        using System.Diagnostics;
 >        using System.Runtime.InteropServices;
@@ -26,4 +26,4 @@ without utilizing any macros (https://sensepost.com/blog/2017/macro-less-code-ex
 >              );
 >        }
 >  "@
->  [User32]::MessageBoxW(0, "SensePost", 0x00000000L)
+*[User32]::MessageBoxW(0, "SensePost", 0x00000000L)*
