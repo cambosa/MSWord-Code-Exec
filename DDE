@@ -1,0 +1,6 @@
+{DDE "c:\\windows\\system32\\cmd.exe" "/c notepad" }
+
+>    Modify the .docx to enable automatic link updating.
+>      To do this, open the .docx in an archive manager and open word/settings.xml.
+>      Now insert the following XML tag into the docPr element:
+      **<w:updateFields w:val="true"/>**
